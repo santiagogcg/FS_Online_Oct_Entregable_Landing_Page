@@ -1,0 +1,112 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:10000px) {
+    
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    gap:30px;
+    color: skyblue;
+
+
+}
+}
+
+@media screen and (max-width:480px)  {
+    
+    ul{
+        visibility: hidden;
+       
+    
+    
+    }
+    }
+
+
+
+
+
+aside p{
+   background-color: red;
+   display: inline-block;
+   padding-left: 20px;
+   
+   
+ 
+}
+
+main{
+    background-image:url("challenge1.png");
+    height: 100vh;
+    width: 100vw;
+    padding-left: 20px;
+    
+}
+
+
+
+
+
+.class1{
+    font-size: 20px;
+    color: white;
+}
+
+.class2{
+    font-size: 100px;
+    color: white;
+}
+
+.class3{
+    font-size: 10px;
+    color: white;
+}
+
+.class4{
+    font-size: 20px;
+    color: white;
+}
+
+.class5{
+    font-size: 20px;
+    color: white;
+}
+
+.class6{
+    font-size: 30px;
+    color: blue;
+    background-color:white ;
+    display: inline-block;
+    
+}
+.class7{
+    font-size: 5px;
+    color:white;
+    
+}
+
+.class8{
+    font-size: 10px;
+    color:white;
+    
+    
+}
+
+footer p{
+    display: inline-block;
+    background-color: pink;
+}
